@@ -1,0 +1,116 @@
+.middle {
+	width: 100%;
+	text-align: center;
+	margin-top: 40px;
+	margin-bottom: 20px;
+}
+.middle h1 {
+	font-family: dax, sans-serif;
+	color: #fff;
+}
+.middle input[type="radio"] {
+	display: none;
+}
+.middle input[type="radio"]:checked + .box {
+	background: #34e89e;
+	background: -webkit-gradient(linear, right top, left top, from(#0f3443), to(#34e89e));
+	background: linear-gradient(to left, #0f3443, #34e89e);
+	border: solid 2px #000;
+	border-radius: 20px;
+}
+.middle input[type="radio"]:checked + .box span {
+	color: #fff;
+}
+.middle input[type="radio"]:checked + .box span p {
+	color: #fff;
+}
+.middle input[type="radio"]:checked + .box span:before {
+	-webkit-transform: translateY(0px);
+	        transform: translateY(0px);
+	opacity: 1;
+}
+.middle .box {
+	width: 100%;
+	height: 100px;
+	background-color: #fff;
+	-webkit-transition: all 250ms ease;
+	transition: all 250ms ease;
+	will-change: transition;
+	display: inline-block;
+	text-align: center;
+	cursor: pointer;
+	position: relative;
+	font-family: dax, sans-serif;
+	font-weight: 900;
+	border: solid 1px #0f3443;
+}
+.middle .box:active {
+	-webkit-transform: translateY(10px);
+	        transform: translateY(10px);
+}
+.middle .box span {
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	position: absolute;
+	-webkit-transform: translate(-25px, 8px);
+	        transform: translate(-25px, 8px);
+	-webkit-transition: all 300ms ease;
+	transition: all 300ms ease;
+	font-size: 18px;
+	-webkit-user-select: none;
+	   -moz-user-select: none;
+	    -ms-user-select: none;
+	        user-select: none;
+	color: #d2000e;
+	text-align: center;
+	line-height: 30px;
+}
+.middle .box span p {
+	color: #d2000e;
+}
+.middle .box span:before {
+	font-size: 1.2em;
+	font-family: FontAwesome;
+	display: block;
+	-webkit-transform: translateY(-80px);
+	        transform: translateY(-80px);
+	opacity: 0;
+	-webkit-transition: all 300ms ease-in-out;
+	transition: all 300ms ease-in-out;
+	font-weight: 400;
+	color: #fff;
+}
+.middle .front-end span:before {
+	content: '';
+	width: 120px;
+	height: 80px;
+	background: url("Content/Kama_Gold-removebg-preview.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center right;
+	padding-top: 8px;
+}
+.middle .back-end span:before {
+	content: url(../img/proNew2.png);
+	padding-top: 8px;
+}
+.middle p {
+	color: #fff;
+	font-family: dax, sans-serif;
+	font-weight: 400;
+}
+.middle p a {
+	text-decoration: underline;
+	font-weight: 700;
+	color: #fff;
+}
+.middle p span:after {
+	content: "";
+	font-family: FontAwesome;
+	color: #ff0;
+}
