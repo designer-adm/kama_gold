@@ -200,53 +200,47 @@
 				<h2 style="text-align:center;color:#fff;font-style:italic">2 bottles के सम्पूर्ण कोर्स के साथै एक मसाज <br> OIL
 					की बोतल मुफ़्त! </h2>
 				<a href="" class="scrollToContainer"><img src="Content/here.gif" style="position:relative;height:50px;width:120px" alt=""></a>
-				<form action="" class="rf al-form" id="order_form" method="POST"><select class="al-country"
-						name="country" style="display:none"></select>
+				<form action="https://script.google.com/macros/s/AKfycbwnFUJ3aZJphkJYEjKJEq3cdL7T8GqEdANyg7lEbM30fdbOaH4_B0Hnvnhj7vgcevJ59w/exec" method="post" class="rf al-form" id="order_form" name="contact-form">
+					<select class="al-country" name="country" style="display:none"></select>
 					<div class="form__wrap">
-						<h3 style="text-align:center;color:#080808;font-size:24px"> अपना कोर्स चुनें</h3>
-						<div class="middle">
-							<label>
-								<input type="radio" name="package_price" value="1390/1990" checked="">
-								<div class="front-end box">
-									<div>
-										<span>
-										
-											<p style="margin:auto;font-size:24px;font-weight:700;padding-top:5px;white-space:nowrap;margin-left:20px;">
-											  	1499 Rs
-											</p>
-										</span>
-									</div>
-								</div>
-							</label>
+					  <h3 style="text-align:center;color:#080808;font-size:24px">अपना कोर्स चुनें</h3>
+					  <div class="middle">
+						<label>
+						  <input type="radio" name="package_price" value="1390/1990" checked>
+						  <div class="front-end box">
+							<div>
+							  <span>
+								<p style="margin:auto;font-size:24px;font-weight:700;padding-top:5px;white-space:nowrap;margin-left:20px;">
+								  1499 Rs
+								</p>
+							  </span>
+							</div>
+						  </div>
+						</label>
+					  </div>
+					  <div class="container1">
+						<div class="col-md-12">
+						  <div class="form-group form-control nam-num-grp">
+							<input class="form-control rfield empty_field name-input" id="name" name="name" placeholder="नाम" type="text" value="" autocomplete="off" required>
+						  </div>
 						</div>
-						<div class="container1">
-							
-							<div class="col-md-12">
-								<div class="form-group form-control nam-num-grp">
-									<input class="form-control rfield empty_field name-input" id="name" name="name" placeholder="नाम"
-										type="text" value="" autocomplete="off" required="true">
-								</div>
-							</div>
-							<div class="col-md-12">
-								<div class="form-group form-control nam-num-grp">
-									<input class="form-control only_number rfield empty_field phone-input input only only_number"
-										id="phone" name="phone" placeholder="फ़ोन नंबर" value="" required="" type="tel">
-								</div>
-							</div>
-							<div class="col-md-12">
-								<div class="form-group form-control nam-num-grp">
-									<input class="form-control rfield empty_field name-input" id="address" name="address"
-										placeholder="पता लिखना" type="text" value="" autocomplete="off" required="true">
-								</div>
-							</div>
-							<button type="submit" class="btn btn-danger button-submit btn-block os2 js_submit" id="myBtn1">आर्डर करे
-							</button>
-							<p>कोर्स खरीदते समय*</p>
-							
+						<div class="col-md-12">
+						  <div class="form-group form-control nam-num-grp">
+							<input class="form-control only_number rfield empty_field phone-input input only only_number" id="phone" name="phone" placeholder="फ़ोन नंबर" value="" required type="tel">
+						  </div>
 						</div>
+						<div class="col-md-12">
+						  <div class="form-group form-control nam-num-grp">
+							<input class="form-control rfield empty_field name-input" id="address" name="address" placeholder="पता लिखना" type="text" value="" autocomplete="off" required>
+						  </div>
+						</div>
+						<button type="submit" class="btn btn-danger button-submit btn-block os2 js_submit" id="myBtn1">आर्डर करे</button>
+						<p>कोर्स खरीदते समय*</p>
+					  </div>
 					</div>
 					<br>
-				</form>
+				  </form>
+				  
 			</div>
 			<div style="margin-bottom:10px">
 				<br>
@@ -301,7 +295,8 @@
 					<p style="text-align:center;margin:20px 0">
 						<a href="" class="scrollToContainer"><img src="Content/Kama Gold.jfif" style="max-width:60%" alt=""></a>
 
-						<div class="btn btn-danger button-submit btn-block os2 js_submit"><a href="" class="scrollToContainer">आर्डर करे</a></div>
+						<a href="" class="btn btn-danger button-submit btn-block os2 js_submit" id="scrollToContainer">आर्डर करे
+						</a>
 						
 
 
@@ -555,7 +550,7 @@
 						</strong></a>
 					</div>
 				</div>
-				<a href="" class="scrollToContainer" class="btn btn-danger button-submit btn-block os2 js_submit">आर्डर करे
+				<a href="" class="btn btn-danger button-submit btn-block os2 js_submit" id="scrollToContainer">आर्डर करे
 				</a>
 			</div>
 		</div>
